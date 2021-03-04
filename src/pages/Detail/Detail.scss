@@ -1,0 +1,92 @@
+.detail{
+    background-color: rgb(238,238,238);
+    padding:0;
+    margin:0;
+    width: 100vw;
+    height: 90vh;
+
+    .detail__title{
+        padding-left:8%;
+        padding-top:2%;
+        padding-bottom:2%;
+        margin:0;
+        color: grey;
+        font-size: 90%;   
+        font-family: arial;  
+    }
+
+    .detail__cont{
+        background-color: white;
+        width: 85vw;
+        height: 100vh;
+        margin-left: 8%;
+        display: grid;
+        grid-template-columns: 70% 30%;
+        grid-template-rows: 60% 40%;
+    }
+
+    .detail__cont__item{
+        width: 20vw;
+        height: 40vh;
+        grid-column: 1 / 2;
+        grid-row: 1 / 2;
+        margin-top: 5%;
+        margin-left: 12%;
+    }
+
+    .detail__cont__desc{
+        grid-column: 1 / 2;
+        grid-row: 2 / 3;
+        margin-left: 5%;
+        background-color: white;
+        
+        .detail__cont__desc__subtitle{
+            margin-left: 2%;
+            font-size: 200%;
+            background-color: white;
+        }
+
+        .detail__cont__desc__complete{
+            font-size: 100%;
+            margin-bottom: 5%;
+            background-color: white;
+
+            .detail__cont__desc__complete__li{
+                background-color: white;
+            }
+        }
+    }
+
+    .detail__cont__buy{
+        grid-column: 2 / 3;
+        grid-row: 1 / 3;
+        margin-top: 5%;
+        background-color: white;
+
+        .detail__cont__buy__sales{
+            font-size: 90%;
+            background-color: white;
+        }
+
+        .detail__cont__buy__name{
+            font-weight: bold;
+            font-size: 150%;
+            background-color: white;
+            padding-right: 5%;
+        }
+
+        .detail__cont__buy__value{
+            font-size: 250%;
+            background-color: white;
+        }
+
+        .detail__cont__buy__button{
+            width: 80%;
+            height: 7%;
+            background-color: rgb(53,131,250);
+            color: white;
+            border: none;
+        }
+    }
+
+}

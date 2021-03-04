@@ -1,0 +1,52 @@
+$meliColor: rgb(255,230,0);
+
+.head{
+    width: 100vw;
+    height: 10vh;
+    background-color: $meliColor;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    padding:0;
+    margin:0;
+
+    .head__logo{
+        width: 4vw;
+        height: 8vh; 
+        padding-right: 2%;  
+        background-color: $meliColor;     
+    }
+
+    .head__form{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+
+        .head__form__search{
+            border: none;
+            width: 50vw;
+            height: 8vh;
+            padding-left: 2%;
+            padding-right: 2%;
+            font-size: 150%;
+            background-color: white;
+        }
+
+        .head__form__search:focus {
+            outline: none;
+        }
+
+        .head__form__lupa{
+            width: 5vw;
+            height: 8vh; 
+        }
+
+        .head__form__lupa:focus {
+            outline: none;
+        }
+    }
+
+}
